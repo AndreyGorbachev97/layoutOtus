@@ -1,0 +1,76 @@
+@import "fonts.css";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  height: 200px;
+}
+
+.header-item {
+  padding: 8px;
+}
+
+.img {
+  border-radius: 8px;
+  width: 350px;
+  margin-right: 12px;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar-left {
+  max-width: 300px;
+  width: 20%;
+  padding: 8px;
+}
+
+.sidebar-right {
+  max-width: 300px;
+  width: 20%;
+  padding: 8px;
+}
+
+.content {
+  width: 60%;
+  padding: 8px;
+}
+
+p {
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+}
+
+.footer-item {
+  padding: 8px;
+}
